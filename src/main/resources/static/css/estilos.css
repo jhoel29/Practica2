@@ -1,0 +1,57 @@
+#encabezado {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 12%;
+    width: 100%;
+    background-color: darkred;
+    color: white;
+}
+#encabezado h1 {
+    display: inline;
+}
+
+#menu a:visited {
+    color: azure;
+}
+
+#menu a:hover {
+    background-color: green;
+    color: azure;
+}
+#barraLateral {
+    position: absolute;
+    top: 12%;
+    left: 0;
+    height: 81%;
+    width: 20%;
+    background-color: burlywood;
+    color: black;
+}
+#contenido {
+    position: absolute;
+    top: 12%;
+    left: 20%;
+    height: 81%;
+    width: 80%;
+    background-color: thistle;
+    color: black;
+    overflow: auto;
+}
+
+#piePagina {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 7%;
+    width: 100%;
+    background-color: darkred;
+    color: black;
+    text-align: center;
+}
+
+#encabezadoTabla {
+    font-size: 20px;
+    color: white;
+    background-color: cadetblue;
+}
